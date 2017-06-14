@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.8.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-13 19:30:51+0000\n"
+"PO-Revision-Date: 2017-06-14 00:09:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2330,7 +2330,7 @@ msgid ""
 "\n"
 "Click the help icon above to learn more."
 msgstr ""
-"Füge deinen eigenen CSS-Code nach diesem Kommentar hinter dem abschließenden &#42;&#47; ein. \n"
+"Füge deinen eigenen CSS-Code nach diesem Kommentar hinter dem abschließenden Schrägstrich ein. \n"
 "\n"
 "Klicke auf das Hilfe-Symbol oben, um mehr zu erfahren."
 
