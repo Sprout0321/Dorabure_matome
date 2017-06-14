@@ -1,0 +1,397 @@
+# Translation of Stable (latest release) in Hebrew
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-05 00:10:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:156
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:142
+msgctxt "Table column header: user-inputted value"
+msgid "Value"
+msgstr "ערך"
+
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:110
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:60
+msgid "Periscope On Air Button"
+msgstr "כפתור Periscope באוויר"
+
+#: src/Twitter/WordPress/Shortcodes/TweetGrid.php:136
+msgctxt "Tweets displayed in a grid layout"
+msgid "Tweet Grid"
+msgstr "רשת ציוצים"
+
+#: src/Twitter/WordPress/Admin/Profile/PeriscopeUser.php:92
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:115
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:131
+msgctxt "Prompt requesting entry of a Periscope username"
+msgid "Periscope username"
+msgstr "שם משתמש ב-Periscope"
+
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:128
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:136
+msgctxt "small size button"
+msgid "small"
+msgstr "קטן"
+
+#: src/Twitter/WordPress/Shortcodes/TweetGrid.php:172
+msgctxt "Maximum number of items to include"
+msgid "Limit"
+msgstr "גבול"
+
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:62
+msgid "Lets a viewer discover your Periscope account and on air status"
+msgstr "מאפשר לצופה לגלות מה מצב השידור בחשבון Periscope שלך"
+
+#: src/Twitter/WordPress/Shortcodes/Moment.php:90
+msgid "Twitter Moment"
+msgstr "רגעי טוויטר"
+
+#: compatibility-notice.php:121 compatibility-notice.php:205
+msgid "The Twitter plugin for WordPress requires PHP version %s or greater."
+msgstr "נדרש PHP גרסה %s ומעלה."
+
+#: compatibility-notice.php:221
+msgctxt "the day the event occurred is unknown"
+msgid "an unknown date"
+msgstr "תאריך לא ידוע"
+
+#: compatibility-notice.php:229
+msgctxt "The web server is running a version of the PHP software released on a locale-formatted date"
+msgid "This server is running PHP version %1$s released on %2$s."
+msgstr "שרת זה מריץ PHP גרסה %1$s ששוחררה ב-%2$s."
+
+#: compatibility-notice.php:232
+msgid "Plugin <strong>deactivated</strong>."
+msgstr "תוסף <strong>כובה</strong>."
+
+#: src/Twitter/WordPress/Admin/Post/MetaBox.php:130
+msgctxt "Text displayed for a Twitter audience"
+msgid "Twitter Custom Text"
+msgstr "טקסט מותאם אישית של טוויטר"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:154
+#: src/Twitter/WordPress/Shortcodes/Share.php:406
+msgctxt "Tweet verb. Sharing."
+msgid "Tweet"
+msgstr "ציוץ"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:156
+msgctxt "Customization or variable"
+msgid "Parameter"
+msgstr "פרמטר"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:167
+#: src/Twitter/WordPress/Shortcodes/Share.php:98
+msgctxt "Share / Tweet text"
+msgid "Text"
+msgstr "טקסט"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:177
+msgid "Hashtags"
+msgstr "תגיות"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:186
+msgid "Pre-populate Tweet text"
+msgstr "הזנה מראש של הטקסט לציוץ"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:138
+msgid "Twitter Card"
+msgstr "כרטיס טוויטר"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:142
+msgctxt "Object component, such as a title and description of an article"
+msgid "Property"
+msgstr "מאפיין"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:146
+msgid "Title"
+msgstr "כותרת"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:160
+msgid "Description"
+msgstr "תיאור"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:171
+msgid "Customize Twitter link previews"
+msgstr "התאמה אישית לתצוגות מקדימות של קישורים בטוויטר"
+
+#: src/Twitter/WordPress/Admin/Profile/User.php:92
+msgctxt "Prompt requesting entry of a Twitter username"
+msgid "Twitter @username"
+msgstr "@שם משתמש בטוויטר"
+
+#: src/Twitter/WordPress/Admin/Settings/Loader.php:61
+msgid "Settings"
+msgstr "הגדרות"
+
+#: src/Twitter/WordPress/Admin/Settings/SinglePage.php:75
+msgid "Twitter settings"
+msgstr "הגדרות בטוויטר"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:73
+msgctxt "Attribute content on a website to a Twitter account"
+msgid "Site attribution"
+msgstr "שיוך לאתר"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:175
+msgid "Attribute shared content to your site's Twitter account"
+msgstr "שייך תוכן ששותף לחשבון טוויטר של האתר שלך"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Site attribution is used to attribute site content to a Twitter account in %1$s and %2$s."
+msgstr "שיוך לאתר נועד כדי לשייך תוכן מהאתר לחשבון טוויטר ב-%1$s ו-%2$s."
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Twitter Cards"
+msgstr "כרטיסי טוויטר"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Twitter Analytics"
+msgstr "ניתוח נתונים בטוויטר"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:217
+msgid "The account may also be used to note a Tweet originated from a Tweet Button on your site."
+msgstr "החשבון יכול לשמש גם לצורך ציוצים שמקורם בלחצן הציוץ שבאתר שלך."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:73
+msgctxt "Visual and color theme"
+msgid "Theme"
+msgstr "ערכת עיצוב"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:86
+msgctxt "Option for content to appear with a light background and dark text"
+msgid "light"
+msgstr "בהירה"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:87
+msgctxt "Option for content to appear with a dark background and light text"
+msgid "dark"
+msgstr "כהה"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:202
+msgctxt "A choice of color options grouped as a theme"
+msgid "Theme"
+msgstr "ערכת עיצוב"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:211
+msgctxt "CSS color styling of a link text"
+msgid "Link color"
+msgstr "צבע הקישור"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:220
+msgctxt "CSS color styling of a box border"
+msgid "Border color"
+msgstr "צבע הגבול"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:240
+msgid "Warnings"
+msgstr "אזהרות"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:247
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:467
+msgid "Content Security Policy"
+msgstr "מדיניות אבטחת תוכן"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:266
+msgid "Restrictions"
+msgstr "הגבלות"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:274
+msgctxt "Personalize Twitter content based on website visits"
+msgid "Personalization"
+msgstr "התאמה אישית"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:291
+msgid "Customize colors used in Twitter widgets to match your site's theme"
+msgstr "בצע התאמה אישית של הצבעים שנעשה בהם שימוש בווידג'טים של טוויטר כך שיתאימו לערכת העיצוב של האתר שלך"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:342
+msgid "Color of link text inside a Twitter widget."
+msgstr "צבע הטקסט בקישור המוצג בתוך וידג'ט של טוויטר."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:364
+msgid "Color of border surrounding a Twitter widget."
+msgstr "צבע הטקסט הגבול המקיף את הווידג'ט של טוויטר."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:383
+msgid "Twitter Embedded Tweet and Timeline widgets support customization of color theme, link color, and border color inside a rendered widget."
+msgstr "מאפיין הציוץ המוטבע של טוויטר ווידג'טים של ציר הזמן תומכים בהתאמה אישית של ערכת צבעים, צבע קישור וצבע הגבול בווידג'ט מעובד"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:384
+msgid "Choose a light or dark theme to best match the background color and text color of surrounding content."
+msgstr "בחר ערכת עיצוב בהירה או כהה שתתאים בצורה הטובה ביותר לצבע הרקע ולצבע הטקסט של התוכן מסביב."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:385
+msgid "Link color is applied to linked text including URLs, #hashtags, and @mentions."
+msgstr "צבע הקישור יוחל על טקסט מקושר, כולל כתובות, #תגים ו-@אזכורים"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:386
+msgid "Border color applies to borders separating Tweet sections or individual Tweets."
+msgstr "צבע הגבול יוחל על גבולות המפרידים בין מקטעי ציוץ או בין ציוצים יחידים."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:405
+msgid "Limit Twitter functionality"
+msgstr "הגבלת הפונקציונליות של טוויטר"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:424
+msgid "Do not use my website to tailor content and suggestions for Twitter users"
+msgstr "אין להשתמש באתר שלי כדי להתאים תוכן והצעות למשתמשי טוויטר"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:428
+msgid "Twitter may track website visitors for advertising targeting, suggested Twitter accounts, and other purposes."
+msgstr "טוויטר עשויה לעקוב אחר מבקרים באתר לצורך מיקוד פרסומים, הצעות לחשבונות טוויטר ומטרות אחרות."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:429
+msgctxt "learn more about this topic"
+msgid "Read more"
+msgstr "המשך לקרוא"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:431
+msgid "Select this option if you wish to opt-out of Twitter tracking visitors when a Twitter button or widget appears on a webpage."
+msgstr "בחר באפשרות זו אם אתה מעוניין לבטל את המעקב של טוויטר אחר מבקרים כאשר לחצן ציוץ או וידג'ט של טוויטר מצוגים בדף אינטרנט."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:445
+msgid "Warnings and error display"
+msgstr "הצגה של אזהרות ושגיאות"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:463
+msgid "Suppress Content Security Policy warnings"
+msgstr "אל תציג אזהרות הקשורות למדיניות אבטחת תוכן"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:467
+msgid "Please note: Not all widget functionality is supported when a %s is applied"
+msgstr "שים לב: הפונקציונליות המלאה של הווידג'ט אינה נתמכת כאשר מחילים עליו %s"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:73
+#: src/Twitter/WordPress/Shortcodes/Share.php:93
+msgid "Tweet Button"
+msgstr "לחצן ציוץ"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:155
+msgctxt "Display of content relative to other content. above, below, left, right"
+msgid "Position"
+msgstr "מיקום"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:162
+msgid "Size"
+msgstr "גודל"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:179
+msgid "Add a Tweet Button to every public post."
+msgstr "הוסף לחצן ציוץ לכל פרסום ציבורי."
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:197
+msgctxt "before another piece of content"
+msgid "before"
+msgstr "לפני"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:198
+msgctxt "after another piece of content"
+msgid "after"
+msgstr "אחרי"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:199
+msgctxt "before and after another piece of content"
+msgid "before & after"
+msgstr "לפני ואחרי"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:236
+msgctxt "display Tweet Button relative to the content of an article"
+msgid "Display Tweet Button %s post content"
+msgstr "הצג לחצן ציוץ %s תוכן הפרסום"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:258
+msgid "Large button"
+msgstr "לחצן גדול"
+
+#: src/Twitter/WordPress/Cards/Sanitize.php:120
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: src/Twitter/WordPress/Shortcodes/EmbeddedTweet.php:149
+msgid "Embedded Tweet"
+msgstr "ציוץ מוטמע"
+
+#: src/Twitter/WordPress/Shortcodes/EmbeddedTweetVideo.php:98
+msgid "Embedded Tweet Video"
+msgstr "וידיאו מוטמע"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:112
+msgid "Follow Button"
+msgstr "כפתור מעקב"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:117
+msgid "Twitter @username"
+msgstr "@שם משתמש בטוויטר"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:126
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:124
+#: src/Twitter/WordPress/Shortcodes/Share.php:108
+#: src/Twitter/WordPress/Widgets/Follow.php:138
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:134
+msgid "Button size:"
+msgstr "גודל הלחצן:"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:130
+#: src/Twitter/WordPress/Shortcodes/Share.php:112
+#: src/Twitter/WordPress/Widgets/Follow.php:140
+msgctxt "medium size button"
+msgid "medium"
+msgstr "בינוני"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:131
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:129
+#: src/Twitter/WordPress/Shortcodes/Share.php:113
+#: src/Twitter/WordPress/Widgets/Follow.php:141
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:137
+msgctxt "large size button"
+msgid "large"
+msgstr "גדול"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:279
+msgctxt "Follow a Twitter user"
+msgid "Follow %s"
+msgstr "עקוב אחרי %s"
+
+#: src/Twitter/WordPress/Shortcodes/Tracking.php:102
+msgid "Twitter Advertising Tracker"
+msgstr "פרסום טוויטר"
+
+#: src/Twitter/WordPress/Shortcodes/Tracking.php:108
+msgid "Twitter conversion or remarketing audience tracking identifier"
+msgstr "מעקב אחרי ההמרות או מיקוד חוזר."
+
+#: src/Twitter/WordPress/Widgets/Follow.php:60
+msgid "Twitter Follow Button"
+msgstr "לחצן מעקב של טוויטר"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:62
+msgid "Lets a viewer follow your Twitter account"
+msgstr "מאפשר למציג לעקוב אחרי חשבון טוויטר שלך"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:126
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:128
+msgid "Title:"
+msgstr "כותרת:"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:129
+msgid "@username:"
+msgstr "@שם משתמש:"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:133
+msgid "Show username?"
+msgstr "להציג שם משתמש?"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:136
+msgid "Show number of followers?"
+msgstr "להציג מספר עוקבים?"
+
+#. Plugin Name of the plugin/theme
+msgid "Twitter"
+msgstr "טוויטר"

@@ -1,0 +1,392 @@
+# Translation of Stable (latest release) in Korean
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-05 00:10:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:156
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:142
+msgctxt "Table column header: user-inputted value"
+msgid "Value"
+msgstr "입력값"
+
+#: src/Twitter/WordPress/Shortcodes/TweetGrid.php:136
+msgctxt "Tweets displayed in a grid layout"
+msgid "Tweet Grid"
+msgstr "트윗 그리드"
+
+#: src/Twitter/WordPress/Admin/Profile/PeriscopeUser.php:92
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:115
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:131
+msgctxt "Prompt requesting entry of a Periscope username"
+msgid "Periscope username"
+msgstr "Periscope 사용자 아이디"
+
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:128
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:136
+msgctxt "small size button"
+msgid "small"
+msgstr "작게"
+
+#: src/Twitter/WordPress/Shortcodes/TweetGrid.php:172
+msgctxt "Maximum number of items to include"
+msgid "Limit"
+msgstr "한도"
+
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:62
+msgid "Lets a viewer discover your Periscope account and on air status"
+msgstr "시청자가 내 Periscope 계정과 방송 중 상태를 확인할 수 있게 합니다."
+
+#: src/Twitter/WordPress/Shortcodes/Moment.php:90
+msgid "Twitter Moment"
+msgstr "트위터 모멘트"
+
+#: compatibility-notice.php:121 compatibility-notice.php:205
+msgid "The Twitter plugin for WordPress requires PHP version %s or greater."
+msgstr "WordPress용 트위터 플러그인에는 PHP 버전 %s 이상이 필요합니다."
+
+#: compatibility-notice.php:221
+msgctxt "the day the event occurred is unknown"
+msgid "an unknown date"
+msgstr "알 수 없는 날짜"
+
+#: compatibility-notice.php:229
+msgctxt "The web server is running a version of the PHP software released on a locale-formatted date"
+msgid "This server is running PHP version %1$s released on %2$s."
+msgstr "이 서버는 %2$s에 출시된 PHP 버전 %1$s을(를) 실행 중입니다."
+
+#: compatibility-notice.php:232
+msgid "Plugin <strong>deactivated</strong>."
+msgstr "플러그인이 <strong>비활성화되었습니다</strong>."
+
+#: src/Twitter/WordPress/Admin/Post/MetaBox.php:130
+msgctxt "Text displayed for a Twitter audience"
+msgid "Twitter Custom Text"
+msgstr "트위터 사용자 지정 문구"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:154
+#: src/Twitter/WordPress/Shortcodes/Share.php:406
+msgctxt "Tweet verb. Sharing."
+msgid "Tweet"
+msgstr "트윗"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:156
+msgctxt "Customization or variable"
+msgid "Parameter"
+msgstr "항목"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:167
+#: src/Twitter/WordPress/Shortcodes/Share.php:98
+msgctxt "Share / Tweet text"
+msgid "Text"
+msgstr "문구"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:177
+msgid "Hashtags"
+msgstr "해시태그"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:186
+msgid "Pre-populate Tweet text"
+msgstr "미리 입력된 트윗 문구"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:138
+msgid "Twitter Card"
+msgstr "트위터 카드"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:142
+msgctxt "Object component, such as a title and description of an article"
+msgid "Property"
+msgstr "속성"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:146
+msgid "Title"
+msgstr "제목"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:160
+msgid "Description"
+msgstr "설명"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:171
+msgid "Customize Twitter link previews"
+msgstr "트위터 링크 미리보기 사용자 지정"
+
+#: src/Twitter/WordPress/Admin/Profile/User.php:92
+msgctxt "Prompt requesting entry of a Twitter username"
+msgid "Twitter @username"
+msgstr "트위터 @사용자 아이디"
+
+#: src/Twitter/WordPress/Admin/Settings/Loader.php:61
+msgid "Settings"
+msgstr "설정"
+
+#: src/Twitter/WordPress/Admin/Settings/SinglePage.php:75
+msgid "Twitter settings"
+msgstr "트위터 설정"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:73
+msgctxt "Attribute content on a website to a Twitter account"
+msgid "Site attribution"
+msgstr "사이트 콘텐츠 출처"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:175
+msgid "Attribute shared content to your site's Twitter account"
+msgstr "공유된 콘텐츠의 출처를 내 사이트의 트위터 계정으로 설정합니다."
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Site attribution is used to attribute site content to a Twitter account in %1$s and %2$s."
+msgstr "사이트 콘텐츠 출처 기능은 사이트 콘텐츠의 출처를 %1$ 및 %2$의 트위터 계정으로 설정할 때 사용합니다."
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Twitter Cards"
+msgstr "트위터 카드"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Twitter Analytics"
+msgstr "트위터 애널리틱스"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:217
+msgid "The account may also be used to note a Tweet originated from a Tweet Button on your site."
+msgstr "사용자가 내 웹사이트의 트윗 버튼을 통해 트윗을 작성하면 이 계정 이름이 삽입되도록 설정할 수도 있습니다."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:73
+msgctxt "Visual and color theme"
+msgid "Theme"
+msgstr "테마"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:86
+msgctxt "Option for content to appear with a light background and dark text"
+msgid "light"
+msgstr "밝게"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:87
+msgctxt "Option for content to appear with a dark background and light text"
+msgid "dark"
+msgstr "어둡게"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:202
+msgctxt "A choice of color options grouped as a theme"
+msgid "Theme"
+msgstr "테마"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:211
+msgctxt "CSS color styling of a link text"
+msgid "Link color"
+msgstr "링크 색상"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:220
+msgctxt "CSS color styling of a box border"
+msgid "Border color"
+msgstr "테두리 색상"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:240
+msgid "Warnings"
+msgstr "경고"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:247
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:467
+msgid "Content Security Policy"
+msgstr "콘텐츠 보안 정책"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:266
+msgid "Restrictions"
+msgstr "제한"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:274
+msgctxt "Personalize Twitter content based on website visits"
+msgid "Personalization"
+msgstr "개인화"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:291
+msgid "Customize colors used in Twitter widgets to match your site's theme"
+msgstr "개인 사이트의 테마와 어울리도록 트위터 위젯의 색상을 사용자 지정할 수 있습니다."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:342
+msgid "Color of link text inside a Twitter widget."
+msgstr "트위터 위젯의 링크 텍스트 색상"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:364
+msgid "Color of border surrounding a Twitter widget."
+msgstr "트위터 위젯의 테두리 색상"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:383
+msgid "Twitter Embedded Tweet and Timeline widgets support customization of color theme, link color, and border color inside a rendered widget."
+msgstr "트위터의 담아온 트윗과 타임라인 위젯에도 색상 테마, 링크 색상, 테두리 색상 등을 원하는 대로 지정할 수 있습니다."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:384
+msgid "Choose a light or dark theme to best match the background color and text color of surrounding content."
+msgstr "다른 콘텐츠의 텍스트 색상 및 배경색에 가장 잘 어울리는 테마를 선택해 보세요."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:385
+msgid "Link color is applied to linked text including URLs, #hashtags, and @mentions."
+msgstr "링크 색상은 URL, #해시태그, @멘션 계정 등에 적용됩니다."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:386
+msgid "Border color applies to borders separating Tweet sections or individual Tweets."
+msgstr "테두리 색상은 개별 트윗 또는 여러 사용자의 트윗을 구분하는 테두리에 적용됩니다."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:405
+msgid "Limit Twitter functionality"
+msgstr "트위터 기능 제한"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:424
+msgid "Do not use my website to tailor content and suggestions for Twitter users"
+msgstr "트위터 사용자를 위한 콘텐츠 및 추천을 설정하는 데 내 웹 사이트 데이터를 사용하는 것에 동의하지 않음"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:428
+msgid "Twitter may track website visitors for advertising targeting, suggested Twitter accounts, and other purposes."
+msgstr "트위터는 광고를 위한 타겟팅, 트위터 계정 추천 또는 다른 목적을 위해 웹 사이트 방문자를 트래킹할 수 있습니다."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:429
+msgctxt "learn more about this topic"
+msgid "Read more"
+msgstr "자세히 알아보기"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:431
+msgid "Select this option if you wish to opt-out of Twitter tracking visitors when a Twitter button or widget appears on a webpage."
+msgstr "이 옵션을 해제하면 트위터 버튼 또는 위젯을 웹 페이지에 표시해도 트위터에서 방문자에 대한 트래킹을 하지 않습니다."
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:445
+msgid "Warnings and error display"
+msgstr "경고 또는 오류 표시"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:463
+msgid "Suppress Content Security Policy warnings"
+msgstr "콘텐츠 보안 정책 경고 해제"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:467
+msgid "Please note: Not all widget functionality is supported when a %s is applied"
+msgstr "참고: %s 활성화 상태에서는 모든 위젯 기능이 지원되지 않습니다."
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:73
+#: src/Twitter/WordPress/Shortcodes/Share.php:93
+msgid "Tweet Button"
+msgstr "트윗 버튼"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:155
+msgctxt "Display of content relative to other content. above, below, left, right"
+msgid "Position"
+msgstr "위치"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:162
+msgid "Size"
+msgstr "크기"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:179
+msgid "Add a Tweet Button to every public post."
+msgstr "모든 공개 포스트에 트윗 버튼 추가"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:197
+msgctxt "before another piece of content"
+msgid "before"
+msgstr "앞에"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:198
+msgctxt "after another piece of content"
+msgid "after"
+msgstr "뒤에"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:199
+msgctxt "before and after another piece of content"
+msgid "before & after"
+msgstr "앞 또는 뒤"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:236
+msgctxt "display Tweet Button relative to the content of an article"
+msgid "Display Tweet Button %s post content"
+msgstr "%s 포스트 내용의 트윗 버튼 표시"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:258
+msgid "Large button"
+msgstr "버튼 크게"
+
+#: src/Twitter/WordPress/Cards/Sanitize.php:120
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: src/Twitter/WordPress/Shortcodes/EmbeddedTweet.php:149
+msgid "Embedded Tweet"
+msgstr "담아온 트윗"
+
+#: src/Twitter/WordPress/Shortcodes/EmbeddedTweetVideo.php:98
+msgid "Embedded Tweet Video"
+msgstr "담아온 트윗 동영상"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:112
+msgid "Follow Button"
+msgstr "팔로우 버튼"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:117
+msgid "Twitter @username"
+msgstr "Twitter @아이디"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:126
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:124
+#: src/Twitter/WordPress/Shortcodes/Share.php:108
+#: src/Twitter/WordPress/Widgets/Follow.php:138
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:134
+msgid "Button size:"
+msgstr "버튼 크기:"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:130
+#: src/Twitter/WordPress/Shortcodes/Share.php:112
+#: src/Twitter/WordPress/Widgets/Follow.php:140
+msgctxt "medium size button"
+msgid "medium"
+msgstr "보통"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:131
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:129
+#: src/Twitter/WordPress/Shortcodes/Share.php:113
+#: src/Twitter/WordPress/Widgets/Follow.php:141
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:137
+msgctxt "large size button"
+msgid "large"
+msgstr "크게"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:279
+msgctxt "Follow a Twitter user"
+msgid "Follow %s"
+msgstr "%s 님 팔로우하기"
+
+#: src/Twitter/WordPress/Shortcodes/Tracking.php:102
+msgid "Twitter Advertising Tracker"
+msgstr "트위터 광고 트래커"
+
+#: src/Twitter/WordPress/Shortcodes/Tracking.php:108
+msgid "Twitter conversion or remarketing audience tracking identifier"
+msgstr "트위터 전환 또는 리마케팅 오디언스 추적 식별자"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:60
+msgid "Twitter Follow Button"
+msgstr "트위터 팔로우 버튼"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:62
+msgid "Lets a viewer follow your Twitter account"
+msgstr "내 트위터 계정에 대한 팔로우를 유도하세요."
+
+#: src/Twitter/WordPress/Widgets/Follow.php:126
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:128
+msgid "Title:"
+msgstr "제목:"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:129
+msgid "@username:"
+msgstr "@사용자 아이디:"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:133
+msgid "Show username?"
+msgstr "사용자 아이디를 표시할까요?"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:136
+msgid "Show number of followers?"
+msgstr "팔로워 수를 표시할까요?"
+
+#. Plugin Name of the plugin/theme
+msgid "Twitter"
+msgstr "Twitter"

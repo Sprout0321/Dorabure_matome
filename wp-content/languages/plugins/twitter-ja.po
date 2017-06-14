@@ -1,0 +1,393 @@
+# Translation of Plugins - Twitter - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Twitter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-16 12:39:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Twitter - Stable (latest release)\n"
+
+#: src/Twitter/WordPress/Shortcodes/TweetGrid.php:136
+msgctxt "Tweets displayed in a grid layout"
+msgid "Tweet Grid"
+msgstr "ツイートグリッド"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:156
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:142
+msgctxt "Table column header: user-inputted value"
+msgid "Value"
+msgstr "値"
+
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:62
+msgid "Lets a viewer discover your Periscope account and on air status"
+msgstr "ユーザーにあなたのPeriscopeアカウントやライブ放送のステータスを見つけてもらいましょう"
+
+#: src/Twitter/WordPress/Shortcodes/TweetGrid.php:172
+msgctxt "Maximum number of items to include"
+msgid "Limit"
+msgstr "上限"
+
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:128
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:136
+msgctxt "small size button"
+msgid "small"
+msgstr "小"
+
+#: src/Twitter/WordPress/Admin/Profile/PeriscopeUser.php:92
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:115
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:131
+msgctxt "Prompt requesting entry of a Periscope username"
+msgid "Periscope username"
+msgstr "Periscopeユーザー名"
+
+#: src/Twitter/WordPress/Shortcodes/Moment.php:90
+msgid "Twitter Moment"
+msgstr "Twitterモーメント"
+
+#. Plugin Name of the plugin/theme
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:136
+msgid "Show number of followers?"
+msgstr "フォロワー数を表示しますか?"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:133
+msgid "Show username?"
+msgstr "ユーザー名を表示しますか?"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:129
+msgid "@username:"
+msgstr "@ユーザー名:"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:126
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:128
+msgid "Title:"
+msgstr "タイトル:"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:62
+msgid "Lets a viewer follow your Twitter account"
+msgstr "訪問してくれたユーザーにあなたのTwitterアカウントをフォローしてもらいましょう"
+
+#: src/Twitter/WordPress/Widgets/Follow.php:60
+msgid "Twitter Follow Button"
+msgstr "Twitterフォローボタン"
+
+#: src/Twitter/WordPress/Shortcodes/Tracking.php:108
+msgid "Twitter conversion or remarketing audience tracking identifier"
+msgstr "TwitterコンバージョンまたはリマーケティングオーディエンスのトラッキングID"
+
+#: src/Twitter/WordPress/Shortcodes/Tracking.php:102
+msgid "Twitter Advertising Tracker"
+msgstr "Twitter広告トラッカー"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:279
+msgctxt "Follow a Twitter user"
+msgid "Follow %s"
+msgstr "%sをフォロー"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:131
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:129
+#: src/Twitter/WordPress/Shortcodes/Share.php:113
+#: src/Twitter/WordPress/Widgets/Follow.php:141
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:137
+msgctxt "large size button"
+msgid "large"
+msgstr "大"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:130
+#: src/Twitter/WordPress/Shortcodes/Share.php:112
+#: src/Twitter/WordPress/Widgets/Follow.php:140
+msgctxt "medium size button"
+msgid "medium"
+msgstr "中"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:126
+#: src/Twitter/WordPress/Shortcodes/PeriscopeOnAir.php:124
+#: src/Twitter/WordPress/Shortcodes/Share.php:108
+#: src/Twitter/WordPress/Widgets/Follow.php:138
+#: src/Twitter/WordPress/Widgets/PeriscopeOnAir.php:134
+msgid "Button size:"
+msgstr "ボタンのサイズ:"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:117
+msgid "Twitter @username"
+msgstr "Twitter @ユーザー名"
+
+#: src/Twitter/WordPress/Shortcodes/Follow.php:112
+msgid "Follow Button"
+msgstr "フォローボタン"
+
+#: src/Twitter/WordPress/Shortcodes/EmbeddedTweetVideo.php:98
+msgid "Embedded Tweet Video"
+msgstr "埋め込みツイート動画"
+
+#: src/Twitter/WordPress/Shortcodes/EmbeddedTweet.php:149
+msgid "Embedded Tweet"
+msgstr "埋め込みツイート"
+
+#: src/Twitter/WordPress/Cards/Sanitize.php:120
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:258
+msgid "Large button"
+msgstr "ボタン(大)"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:236
+msgctxt "display Tweet Button relative to the content of an article"
+msgid "Display Tweet Button %s post content"
+msgstr "投稿コンテンツの%sにツイートボタンを表示"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:199
+msgctxt "before and after another piece of content"
+msgid "before & after"
+msgstr "前と後"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:198
+msgctxt "after another piece of content"
+msgid "after"
+msgstr "後"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:197
+msgctxt "before another piece of content"
+msgid "before"
+msgstr "前"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:179
+msgid "Add a Tweet Button to every public post."
+msgstr "すべての公開投稿にツイートボタンを追加します。"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:162
+msgid "Size"
+msgstr "サイズ"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:155
+msgctxt "Display of content relative to other content. above, below, left, right"
+msgid "Position"
+msgstr "位置"
+
+#: src/Twitter/WordPress/Admin/Settings/TweetButton.php:73
+#: src/Twitter/WordPress/Shortcodes/Share.php:93
+msgid "Tweet Button"
+msgstr "ツイートボタン"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:467
+msgid "Please note: Not all widget functionality is supported when a %s is applied"
+msgstr "注記: %sが適用されている場合、ウィジェットの一部の機能はサポートされません"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:463
+msgid "Suppress Content Security Policy warnings"
+msgstr "コンテンツのセキュリティ ポリシーの警告を表示しない"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:445
+msgid "Warnings and error display"
+msgstr "警告とエラーの表示"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:431
+msgid "Select this option if you wish to opt-out of Twitter tracking visitors when a Twitter button or widget appears on a webpage."
+msgstr "WebサイトにTwitterボタンまたはウィジェットを表示する際、Twitterの訪問者のトラッキングをオプトアウトするにはこのオプションを選択してください。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:429
+msgctxt "learn more about this topic"
+msgid "Read more"
+msgstr "詳細"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:428
+msgid "Twitter may track website visitors for advertising targeting, suggested Twitter accounts, and other purposes."
+msgstr "Twitterは、ターゲティング広告、おすすめのTwitterアカウントおよびその他の目的でWebサイトの訪問者をトラッキングする場合があります。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:424
+msgid "Do not use my website to tailor content and suggestions for Twitter users"
+msgstr "コンテンツとおすすめのTwitterユーザーをカスタマイズするために自分のWebサイトを使用しない"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:405
+msgid "Limit Twitter functionality"
+msgstr "Twitterの機能を制限"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:386
+msgid "Border color applies to borders separating Tweet sections or individual Tweets."
+msgstr "枠線の色はツイートセクションまたはそれぞれのツイートを分ける枠線に適用されます。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:385
+msgid "Link color is applied to linked text including URLs, #hashtags, and @mentions."
+msgstr "リンクの色はURL、#ハッシュタグ、@ツイートなどのリンクテキストに適用されます。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:384
+msgid "Choose a light or dark theme to best match the background color and text color of surrounding content."
+msgstr "周囲のコンテンツの背景色とテキストの色に最もマッチする、明るいまたは暗い色調のテーマを選択してください。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:383
+msgid "Twitter Embedded Tweet and Timeline widgets support customization of color theme, link color, and border color inside a rendered widget."
+msgstr "Twitterの埋め込みツイートとタイムラインウィジェットは、表示されるウィジェット内の色のテーマ、リンクの色、枠線の色のカスタマイズをサポートしています。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:364
+msgid "Color of border surrounding a Twitter widget."
+msgstr "Twitterウィジェットを囲む枠線の色。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:342
+msgid "Color of link text inside a Twitter widget."
+msgstr "Twitterウィジェット内のリンクテキストの色。"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:291
+msgid "Customize colors used in Twitter widgets to match your site's theme"
+msgstr "自分のサイトのテーマに合うようTwitterウィジェットで使う色をカスタマイズ"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:274
+msgctxt "Personalize Twitter content based on website visits"
+msgid "Personalization"
+msgstr "カスタマイズ"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:266
+msgid "Restrictions"
+msgstr "制限"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:247
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:467
+msgid "Content Security Policy"
+msgstr "コンテンツのセキュリティポリシー"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:240
+msgid "Warnings"
+msgstr "警告"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:220
+msgctxt "CSS color styling of a box border"
+msgid "Border color"
+msgstr "枠線の色"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:211
+msgctxt "CSS color styling of a link text"
+msgid "Link color"
+msgstr "リンク色"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:202
+msgctxt "A choice of color options grouped as a theme"
+msgid "Theme"
+msgstr "テーマ"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:87
+msgctxt "Option for content to appear with a dark background and light text"
+msgid "dark"
+msgstr "暗い"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:86
+msgctxt "Option for content to appear with a light background and dark text"
+msgid "light"
+msgstr "明るい"
+
+#: src/Twitter/WordPress/Admin/Settings/Theme.php:73
+msgctxt "Visual and color theme"
+msgid "Theme"
+msgstr "テーマ"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:217
+msgid "The account may also be used to note a Tweet originated from a Tweet Button on your site."
+msgstr "アカウントは自分のサイトのツイートボタンから投稿されたツイートを引用する際にも使われる場合があります。"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Twitter Analytics"
+msgstr "Twitterアナリティクス"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Twitter Cards"
+msgstr "Twitterカード"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:216
+msgid "Site attribution is used to attribute site content to a Twitter account in %1$s and %2$s."
+msgstr "サイトアトリビューションは、サイトのコンテンツから%1$sと%2$sのTwitterアカウントへのアトリビューションに使用します。"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:175
+msgid "Attribute shared content to your site's Twitter account"
+msgstr "共有コンテンツから自分のサイトのTwitterアカウントへのアトリビューションを実施"
+
+#: src/Twitter/WordPress/Admin/Settings/SiteAttribution.php:73
+msgctxt "Attribute content on a website to a Twitter account"
+msgid "Site attribution"
+msgstr "サイトアトリビューション"
+
+#: src/Twitter/WordPress/Admin/Settings/SinglePage.php:75
+msgid "Twitter settings"
+msgstr "Twitter設定"
+
+#: src/Twitter/WordPress/Admin/Settings/Loader.php:61
+msgid "Settings"
+msgstr "設定"
+
+#: src/Twitter/WordPress/Admin/Profile/User.php:92
+msgctxt "Prompt requesting entry of a Twitter username"
+msgid "Twitter @username"
+msgstr "Twitterのユーザー名"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:171
+msgid "Customize Twitter link previews"
+msgstr "Twitterリンクプレビューをカスタマイズ"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:160
+msgid "Description"
+msgstr "説明"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:146
+msgid "Title"
+msgstr "タイトル"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:142
+msgctxt "Object component, such as a title and description of an article"
+msgid "Property"
+msgstr "プロパティ"
+
+#: src/Twitter/WordPress/Admin/Post/TwitterCard.php:138
+msgid "Twitter Card"
+msgstr "Twitterカード"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:186
+msgid "Pre-populate Tweet text"
+msgstr "ツイートの本文を自動入力"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:177
+msgid "Hashtags"
+msgstr "ハッシュタグ"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:167
+#: src/Twitter/WordPress/Shortcodes/Share.php:98
+msgctxt "Share / Tweet text"
+msgid "Text"
+msgstr "テキスト"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:156
+msgctxt "Customization or variable"
+msgid "Parameter"
+msgstr "パラメーター"
+
+#: src/Twitter/WordPress/Admin/Post/TweetIntent.php:154
+#: src/Twitter/WordPress/Shortcodes/Share.php:406
+msgctxt "Tweet verb. Sharing."
+msgid "Tweet"
+msgstr "ツイート"
+
+#: src/Twitter/WordPress/Admin/Post/MetaBox.php:130
+msgctxt "Text displayed for a Twitter audience"
+msgid "Twitter Custom Text"
+msgstr "Twitterカスタムテキスト"
+
+#: compatibility-notice.php:232
+msgid "Plugin <strong>deactivated</strong>."
+msgstr "プラグインを<strong>無効</strong>にしました。"
+
+#: compatibility-notice.php:229
+msgctxt "The web server is running a version of the PHP software released on a locale-formatted date"
+msgid "This server is running PHP version %1$s released on %2$s."
+msgstr "このサーバーは%2$sにリリースされたPHPバージョン%1$sを実行しています。"
+
+#: compatibility-notice.php:221
+msgctxt "the day the event occurred is unknown"
+msgid "an unknown date"
+msgstr "不明な日付"
+
+#: compatibility-notice.php:121 compatibility-notice.php:205
+msgid "The Twitter plugin for WordPress requires PHP version %s or greater."
+msgstr "WordPress用TwitterプラグインにはPHPバージョン%s以上が必要です。"
