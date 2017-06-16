@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Hestia package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-13 16:39:14+0000\n"
+"PO-Revision-Date: 2017-06-14 14:23:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -180,6 +180,11 @@ msgstr "Du solltest das Formular auf deiner Startseite sehen können. Du kannst 
 #: inc/customizer-contact-info/class-hestia-contact-info.php:37
 msgid "Settings > Pirate Forms"
 msgstr "Einstellungen > Pirate Forms"
+
+#. translators: %1$s is Plugin name
+#: inc/customizer-contact-info/class-hestia-contact-info.php:41
+msgid "In order to add a contact form to this section, you need to install the %s plugin."
+msgstr "Um diesem Abschnitt ein Kontaktformular hinzuzufügen, musst du das Plugin %s installieren."
 
 #. translators: %1$s is Plugin Name
 #: inc/customizer-info/class/class-hestia-customizer-info-singleton.php:88

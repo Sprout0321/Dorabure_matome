@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.8.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-12 17:26:42+0000\n"
+"PO-Revision-Date: 2017-06-15 13:21:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -102,11 +102,6 @@ msgstr "城市已更新。列出 %s 附近的活動。"
 msgid "Attend an upcoming event near you."
 msgstr "參加附近即將舉行的活動。"
 
-#. translators: %s: network settings URL
-#: wp-signup.php:842
-msgid "To change or disable registration go to your <a href=\"%s\">Options page</a>."
-msgstr "前往 <a href=\"%s\"> 設定頁面</a> 變更或停用註冊。"
-
 #: wp-includes/widgets/class-wp-widget-media.php:137
 msgid "Title for the widget"
 msgstr "小工具標題"
@@ -165,6 +160,11 @@ msgstr[0] "影片小工具 (%d)"
 #: wp-includes/widgets/class-wp-widget-media.php:124
 msgid "Attachment post ID"
 msgstr "附加文章識別碼"
+
+#. translators: %s: network settings URL
+#: wp-signup.php:842
+msgid "To change or disable registration go to your <a href=\"%s\">Options page</a>."
+msgstr "前往 <a href=\"%s\"> 設定頁面</a> 變更或停用註冊。"
 
 #. translators: placeholder is URL to media library
 #: wp-includes/widgets/class-wp-widget-media.php:66
@@ -451,16 +451,6 @@ msgctxt "page"
 msgid "Use as featured image"
 msgstr "設為精選圖片"
 
-#: wp-includes/media.php:3519 wp-includes/script-loader.php:80
-msgid ""
-"You are about to permanently delete these items from your site.\n"
-"This action cannot be undone.\n"
-" 'Cancel' to stop, 'OK' to delete."
-msgstr ""
-"你將從網站上永久刪除這些項目。\n"
-"這項操作無法回復。\n"
-"按一下 [取消] 停止操作，按一下 [確定] 進行刪除。"
-
 #. translators: 1: suggested width number, 2: suggested height number.
 #: wp-includes/media-template.php:240 wp-includes/media.php:3568
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
@@ -479,6 +469,16 @@ msgstr ""
 "你將從本站永久刪除此項目。\n"
 "此動作無法復原。\n"
 "點選「取消」停止，點選「確定」刪除。"
+
+#: wp-includes/media.php:3519 wp-includes/script-loader.php:80
+msgid ""
+"You are about to permanently delete these items from your site.\n"
+"This action cannot be undone.\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"你將從網站上永久刪除這些項目。\n"
+"這項操作無法回復。\n"
+"以「取消」停止操作；以「確定」進行刪除。"
 
 #. translators: 1: *​/, 2: /​*
 #: wp-includes/customize/class-wp-customize-custom-css-setting.php:248
@@ -8216,13 +8216,13 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"欲啟用你的網站，請點擊下列連結：\n"
+"欲啟用你的網站，請點選下列連結：\n"
 "\n"
 "%s\n"
 "\n"
-"啟用之後你會收到 *另一封* 關於你登入資訊的信件。\n"
+"啟用之後您會收到 *另一封電子郵件* 關於你登入資訊的信件。\n"
 "\n"
-"啟用之後，你可造訪你的網站：\n"
+"啟用之後，您可造訪你的網站：\n"
 "\n"
 "%s"
 
