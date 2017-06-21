@@ -1352,8 +1352,7 @@ label.control-label {
 }
 .form-group.label-static label.control-label,
 .form-group.label-floating.is-focused label.control-label,
-.form-group.label-floating:not(.is-empty) label.control-label,
-.form-group.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+.form-group.label-floating:not(.is-empty) label.control-label {
 	top: -28px;
 	right: 0;
 	font-size: 11px;

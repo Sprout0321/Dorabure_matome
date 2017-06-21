@@ -24,7 +24,7 @@
  * @since Hestia 1.0
  */
 
-define( 'HESTIA_VERSION', '1.1.32' );
+define( 'HESTIA_VERSION', '1.1.33' );
 
 define( 'HESTIA_PHP_INCLUDE', trailingslashit( get_template_directory() ) . 'inc/' );
 
@@ -715,23 +715,3 @@ function hestia_bb_upgrade_link() {
 }
 
 add_filter( 'fl_builder_upgrade_url', 'hestia_bb_upgrade_link' );
-
-
-
-function hestia_themeisle_sdk(){
-	require dirname(__FILE__).'/vendor/themeisle/load.php';
-	themeisle_sdk_register (
-		array(
-			'product_slug'=>'hestia',
-			'store_url'=>'https://themeisle.com',
-			'store_name'=>'Themeisle',
-			'product_type'=>'theme',
-			'wordpress_available'=>false,
-			'paid'=>false,
-		)
-	);
-}
-
-hestia_themeisle_sdk(); 
-
- 

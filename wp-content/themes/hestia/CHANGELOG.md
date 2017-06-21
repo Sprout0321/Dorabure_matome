@@ -1,4 +1,9 @@
 
+### 1.1.33 - 20/06/2017
+**Changes:** 
+- Fixed form placeholder issues on Mozilla Firefox
+- Remove support for WPML on frontpage
+
 ### 1.1.32 - 13/06/2017
 **Changes:** 
 - Updated some strings

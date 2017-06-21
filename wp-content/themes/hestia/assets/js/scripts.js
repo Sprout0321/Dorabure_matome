@@ -138,7 +138,7 @@ jQuery(document).ready(function($) {
 	var byRow = $( 'body' ).hasClass( 'home' );
 
 	if (typeof $( '#features' ) !== 'undefined' ) {
-		$( '.hestia-features .row' ).each(function () {
+		$( '.hestia-features .row, .features .row' ).each(function () {
 			$(this).children( '.col-md-4' ).matchHeight(byRow);
 		});
 	}
@@ -156,23 +156,23 @@ jQuery(document).ready(function($) {
 	}
 
 	if (typeof $( '#portfolio' ) !== 'undefined' ) {
-		$( '.hestia-work .row' ).each(function () {
+		$( '.hestia-work .row, .work .row' ).each(function () {
 			$(this).children( '.col-md-4' ).matchHeight(byRow);
 		});
 
-		$( '.hestia-work .row' ).each(function () {
+		$( '.hestia-work .row, .work .row' ).each(function () {
 			$(this).children( '.col-md-6' ).matchHeight(byRow);
 		});
 	}
 
 	if (typeof $( '#team' ) !== 'undefined' ) {
-		$( '.hestia-team .row' ).each(function () {
+		$( '.hestia-team .row, .team .row' ).each(function () {
 			$(this).children( '.col-md-6' ).matchHeight(byRow);
 		});
 	}
 
 	if (typeof $( '#testimonials' ) !== 'undefined' ) {
-		$( '.hestia-testimonials .row' ).each(function () {
+		$( '.hestia-testimonials .row, .testimonials .row' ).each(function () {
 			$(this).children( '.col-md-4' ).matchHeight(byRow);
 		});
 	}
@@ -184,7 +184,7 @@ jQuery(document).ready(function($) {
 	}
 
 	if ( typeof $( '#blog' ) !== 'undefined' ) {
-		$( '.hestia-blogs .row' ).each( function() {
+		$( '.hestia-blogs .row, .blogs .row' ).each( function() {
 			$( this ).children( '.col-md-4' ).matchHeight( byRow );
 		});
 	}
