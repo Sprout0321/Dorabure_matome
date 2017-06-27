@@ -21,6 +21,8 @@
 
 <?php wp_head(); ?>
 
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/sections/sections_design.css" type="text/css" media="screen" />
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -44,8 +46,16 @@
 		get_template_part( 'sections/jumbotron' );
 
      } ?>
+
+	<?php if ( get_theme_mod( 'singleapp_jumbotron_enable', '' ) == '1' && is_front_page() && singleapp_theme_style() == 'onepage' ) : ?>
+		<div class="logoimageclass" id="logoimagediv">
+			<img id="logoimg" src="http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/05/logo2.png" onclick="removevideo()">
+		</div>
+ 	<?php endif; ?>
 	
 	<?php do_action( 'singleapp_before_header' ); ?>
+
+
 
 	<header id="masthead" class="site-header">
 

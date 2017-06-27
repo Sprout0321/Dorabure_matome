@@ -1,0 +1,95 @@
+#myvideo {
+    width: 80%;
+    /* margin-bottom: -6px; */
+    /* background: black; */
+    /* display: none; */
+    display: block;
+}
+
+video::-webkit-media-controls-panel {
+	display: none;
+	-webkit-appearance: none;
+}
+
+video::-webkit-media-controls-play-button {
+ 	display: none;
+	-webkit-appearance: none;
+}
+
+video::-webkit-media-controls-start-playback-button {
+	display: none;
+	-webkit-appearance: none
+}
+
+video::-webkit-media-controls {
+ 	display: none;
+ 	-webkit-appearance: none;
+}
+
+#banner-id {
+	/* display: block; */
+	display: none;
+}
+
+#topimage {
+	/* display: block; */
+	display: none;
+}
+
+.iphone-screen.tg-screenshot {
+	width: 50%;
+	position: relative;
+	margin-left: -20px;
+	-webkit-animation-name: shaking;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease;
+	animation-name: shaking;
+	animation-duration: 4s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	pointer-events: none;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes shaking {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes shaking {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+
+.logoimageclass {
+	width: 20%;
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 20px;
+	z-index:0;
+}
+
+.fixed-pos {
+	position:fixed;
+	top:20px;
+	z-index:98;
+}
+
+.unfixed-pos {
+	position:absolute;
+	top:590px;
+	z-index:101;
+}
+
+
+
+
+

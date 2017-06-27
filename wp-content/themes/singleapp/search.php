@@ -18,7 +18,8 @@
 
 	<div id="content" class="site-content">
 
-	   <main id="main" class="clearfix <?php echo esc_attr( $singleapp_layout ); ?>">
+	   <main id="main" class="clearfix <?php echo esc_attr( $singleapp_layout ); ?>" style="
+    background-image: url('http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/05/cropped-bg_MV-1.jpg'); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover;">
 
 		   <div class="tg-container">
 

@@ -16,7 +16,7 @@
 
 	$singleapp_layout = singleapp_layout_class(); ?>
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content" style="background-image: url('http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/05/cropped-bg_MV-1.jpg'); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover;">
 	   
 		<main id="main" class="clearfix <?php echo esc_attr( $singleapp_layout ); ?>">
 
