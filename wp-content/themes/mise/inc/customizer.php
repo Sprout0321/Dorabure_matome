@@ -150,7 +150,7 @@ function mise_custom_settings_register( $wp_customize ) {
 	$wp_customize->add_section( 'cresta_mise_links', array(
 	 'priority'       => 999,
 	  'capability'     => 'edit_theme_options',
-	  'title'          => esc_html__('Mise links and theme documentation', 'mise')
+	  'title'          => esc_html__('Mise useful links', 'mise')
 	) );	
 	/**
 	* ################ SECTION GENERAL SETTINGS

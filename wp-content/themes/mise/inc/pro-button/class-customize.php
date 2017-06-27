@@ -80,6 +80,18 @@ final class Mise_Updgrade_Pro_Button {
 				)
 			)
 		);
+		$manager->add_section(
+			new Mise_Updgrade_Section_Pro(
+				$manager,
+				'cresta_mise_documentation',
+				array(
+					'priority' => 999,
+					'title'    => esc_html__( 'Mise documentation', 'mise' ),
+					'pro_text' => esc_html__( 'Documentation',         'mise' ),
+					'pro_url'  => admin_url( add_query_arg( array( 'page' => 'mise-welcome', 'tab' => 'documentation' ), 'themes.php' ) )
+				)
+			)
+		);
 	}
 
 	/**

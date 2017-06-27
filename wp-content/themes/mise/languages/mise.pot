@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Mise\n"
-"POT-Creation-Date: 2017-06-14 19:12+0100\n"
-"PO-Revision-Date: 2017-06-14 19:12+0100\n"
+"POT-Creation-Date: 2017-06-22 12:47+0100\n"
+"PO-Revision-Date: 2017-06-22 12:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -231,7 +231,7 @@ msgstr ""
 msgid "Free Vs PRO"
 msgstr ""
 
-#: inc/admin/mise-admin-page.php:133
+#: inc/admin/mise-admin-page.php:133 inc/pro-button/class-customize.php:90
 msgid "Documentation"
 msgstr ""
 
@@ -649,7 +649,7 @@ msgid "Section contact"
 msgstr ""
 
 #: inc/customizer.php:153
-msgid "Mise links and theme documentation"
+msgid "Mise useful links"
 msgstr ""
 
 #: inc/customizer.php:166
@@ -1260,6 +1260,10 @@ msgstr ""
 
 #: inc/pro-button/class-customize.php:78
 msgid "More Info"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:89
+msgid "Mise documentation"
 msgstr ""
 
 #. translators: %s: post title

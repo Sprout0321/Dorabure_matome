@@ -105,7 +105,7 @@
 					<div class="miseTeamDesc">
 					<?php 
 						$post_content6 = get_post(intval($teamTestimonialBox6));
-						$content6 = $post_content5->post_content;
+						$content6 = $post_content6->post_content;
 						echo do_shortcode($content6);
 					?>
 					</div>
