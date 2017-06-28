@@ -36,6 +36,10 @@ video::-webkit-media-controls {
 	display: none;
 }
 
+.home-slider {
+	z-index: 101;
+}
+
 .iphone-screen.tg-screenshot {
 	width: 50%;
 	position: relative;
@@ -74,19 +78,19 @@ video::-webkit-media-controls {
 	left: 0;
 	right: 0;
 	top: 20px;
-	z-index:0;
+	z-index:102;
 }
 
 .fixed-pos {
 	position:fixed;
 	top:20px;
-	z-index:98;
+	z-index:102;
 }
 
 .unfixed-pos {
 	position:absolute;
 	top:590px;
-	z-index:101;
+	z-index:102;
 }
 
 

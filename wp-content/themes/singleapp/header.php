@@ -22,6 +22,8 @@
 <?php wp_head(); ?>
 
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/sections/sections_design.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/topmenu.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/others.css" type="text/css" media="screen" />
 
 </head>
 
@@ -61,7 +63,7 @@
 
 		<div class="header-wrapper clearfix">
 
-			<div class="tg-container">
+			<div class="tg-container" id="topmenu-tg-container">
 
 				<?php if( ( get_theme_mod( 'singleapp_header_logo_placement', 'header_text_only' ) == 'show_both' || get_theme_mod( 'singleapp_header_logo_placement', 'header_text_only' ) == 'header_logo_only' ) && has_custom_logo() ) : ?>
 					<div class="logo">

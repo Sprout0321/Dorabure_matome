@@ -895,8 +895,7 @@ HEADER CSS
 --------------------------------------------------------------*/
  
  .site-header {
-     /* background-color: #fff; */
-     background-color: rgba(0, 180, 0, 0.1);
+     background-color: #fff;
  }
  
  .header-wrapper {
@@ -2381,7 +2380,7 @@ CONTACT CSS
      #site-navigation ul li.current-menu-ancestor> a,
      #site-navigation ul.sub-menu li:hover> a,
      #site-navigation ul.sub-menu li ul.sub-menu li:hover> a {
-         background: rgba(0, 0, 0, 0);
+         background: #fff;
          display: block;
          -webkit-transition: background 0.5s ease 0s;
          -moz-transition: background 0.5s ease 0s;

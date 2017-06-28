@@ -1,0 +1,35 @@
+//div.block {
+    display: none;
+}
+/* Menu下的導覽列 */
+
+.sow-video-wrapper iframe {
+    width:100%;
+}
+/* 使影片在小螢幕不會超出範圍 */
+
+.design-by.wow.fadeInUp {
+	display: none;
+}
+/* 最底下的字 */
+
+//.sticky-wrapper div {
+	background-color:white;
+	z-index:100;
+}
+/* 使下拉式選單到最前排 */
+
+//.is-sticky div {
+	background-color: rgba(255, 0, 0, 0.3);
+}
+
+//.wp-image-552.size-full.aligncenter {
+	display: block;
+	margin: auto;
+}
+/* 使第一張圖置中 */
+
+div.panel-widget-style.panel-widget-style-for-132-1-1-0 {
+	background-size:100% 100%;
+}
+/* Twitter背景調整 */

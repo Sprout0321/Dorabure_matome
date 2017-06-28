@@ -1,0 +1,41 @@
+#masthead div {
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+div#header-text.normal-header {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.tg-container div {
+	/* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+div#header-text.normal-header p {
+	/* color: rgba(0, 255, 0, 0.5); */
+}
+
+div#header-text.normal-header a {
+	/* color:  rgba(0, 255, 0, 0.5); */
+}
+
+nav#site-navigation.main-navigation a {
+	/* color:  rgba(0, 255, 0, 0.5); */
+}
+
+@media (max-width: 1019px) {
+	#site-navigation ul li:hover> a,
+	/* #site-navigation ul li.current-menu-item> a, */
+	#site-navigation ul li.current-menu-ancestor> a,
+	#site-navigation ul.sub-menu li:hover> a,
+	#site-navigation ul.sub-menu li ul.sub-menu li:hover> a {
+		background: rgba(0, 0, 200, 0.8);
+	}
+
+	#site-navigation ul li.current-menu-item> a{
+		background: rgba(0, 0, 200, 0);
+	}
+}
+
+#site-navigation ul.sub-menu, #site-navigation ul.children {
+     background: rgba(0, 0, 200, 0.8) none repeat scroll 0 0;
+}
