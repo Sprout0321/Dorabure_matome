@@ -1,26 +1,72 @@
 #masthead div {
-	background-color: rgba(0, 0, 255, 0.3);
+	/* background-color: rgba(0, 0, 255, 0.3); */
 }
+/* 所有的div */
+
+div#masthead-sticky-wrapper.sticky-wrapper {
+	background: rgba(0,0,0,1);
+}
+/* header與menubar中間的尖間隔 */
+
+div#topmenu-tg-container.tg-container {
+	background: rgb(0,0,0);
+	/* background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(153,0,0,1) 50%, rgba(153,114,0,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(153,0,0,1) 50%,rgba(153,114,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(153,0,0,1) 50%,rgba(153,114,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#997200',GradientType=0 ); */
+}
+/* 主要選單顏色 往下拉後*/
 
 div#header-text.normal-header {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.tg-container div {
-	/* background-color: rgba(0, 0, 0, 0.5); */
+div#topmenu-header-wrapper.header-wrapper.clearfix {
+	background-color: rgba(0, 0, 0, 0);
 }
 
-div#header-text.normal-header p {
-	/* color: rgba(0, 255, 0, 0.5); */
+header#masthead.site-header {
+	background: rgba(0,0,0,1);
+	/* background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(153,0,0,1) 50%, rgba(153,114,0,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(153,0,0,1) 50%,rgba(153,114,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(153,0,0,1) 50%,rgba(153,114,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#997200',GradientType=0 ); */
 }
+/* 主要選單顏色 原本*/
+
+@media (max-width: 1019px) {
+	div#topmenu-tg-container.tg-container {
+		width: 100%;
+	}
+}
+/* 小螢幕時讓選單與螢幕等寬 */
+
+@media (max-width: 1200px){
+	div#topmenu-tg-container.tg-container {
+		padding: 0;
+	}
+}
+/* 小螢幕時讓選單與螢幕等寬 */
+
+.sticky-wrapper div {
+	z-index: 99;
+}
+/* 使下拉式選單到最前排 */
 
 div#header-text.normal-header a {
-	/* color:  rgba(0, 255, 0, 0.5); */
+	color:  rgba(200,200,200,1);
 }
+/* 標題 */
+
+div#header-text.normal-header p {
+	color: rgba(226,226,0,1);
+}
+/* 副標題 */
 
 nav#site-navigation.main-navigation a {
-	/* color:  rgba(0, 255, 0, 0.5); */
+	color:  rgba(200,200,200,1);
 }
+/* 選單 */
 
 @media (max-width: 1019px) {
 	#site-navigation ul li:hover> a,
@@ -28,14 +74,47 @@ nav#site-navigation.main-navigation a {
 	#site-navigation ul li.current-menu-ancestor> a,
 	#site-navigation ul.sub-menu li:hover> a,
 	#site-navigation ul.sub-menu li ul.sub-menu li:hover> a {
-		background: rgba(0, 0, 200, 0.8);
+		background: rgba(255, 255, 255, 0.3);
 	}
 
-	#site-navigation ul li.current-menu-item> a{
-		background: rgba(0, 0, 200, 0);
+	#site-navigation ul li.current-menu-item> a {
+		background: rgba(0, 0, 0, 0);
 	}
+
+	#site-navigation ul.sub-menu li a,
+	#site-navigation ul.sub-menu li ul.sub-menu li a {
+		color: rgba(200,200,200,1);
+	}
+
+	.fa-angle-down::before {
+		font-size: 40px;
+		color:  rgba(200,200,200,1);
+	}
+	/* 下拉式抽屜箭頭 */
 }
 
-#site-navigation ul.sub-menu, #site-navigation ul.children {
-     background: rgba(0, 0, 200, 0.8) none repeat scroll 0 0;
+#site-navigation ul.sub-menu,
+#site-navigation ul.children {
+     background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
+     border-top: none;
+     border-bottom: none;
 }
+/* 下拉式抽屜 */
+
+
+ #site-navigation ul.sub-menu li a,
+ #site-navigation ul.children li a {
+	color: rgba(200,200,200,1);
+ }
+
+
+#site-navigation .menu-toggle::before {
+	color:  rgba(200,200,200,1);
+}
+/* 選單三條線 */
+
+.fa-angle-down {
+	font-size: 20px;
+	color:  rgba(153,114,0,1);
+}
+/* 下拉式抽屜箭頭 */

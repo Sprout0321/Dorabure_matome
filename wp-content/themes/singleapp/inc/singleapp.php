@@ -543,8 +543,8 @@ function singleapp_custom_css() {
 	$primary_color   = esc_attr( get_theme_mod( 'singleapp_primary_color', '#00aced' ) );
 	$primary_opacity = singleapp_hex2rgb($primary_color);
 	$primary_light    = singleapp_lightcolor($primary_color, -20);
-	$primary_opacity2    = "rgba(0, 255, 200, 0.85)";
-	$primary_light2    = "rgba(0, 255, 200, 0.85)";
+	$primary_opacity2    = "rgba(225, 225, 0, 0.85)";
+	$primary_light2    = "rgba(225, 225, 0, 0.85)";
 
 	$singleapp_internal_css = '';
 	if( $primary_color != '#00aced' ) {

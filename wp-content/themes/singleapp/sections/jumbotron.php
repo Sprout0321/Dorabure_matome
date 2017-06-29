@@ -22,22 +22,22 @@ if ( singleapp_theme_style() == 'fullpage' ) {
 		 <?php endif; ?>
 	</div>
 
-	<video id="myvideo" poster="http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/06/Snip20170627_26.png" autoplay muted>
+	<!-- <video id="myvideo" poster="http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/06/Snip20170627_26.png" autoplay muted>
 		<source src="http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/06/dragon_blade_1920_1080_low.mp4" type="video/mp4">
 		<source src="http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/06/dragon_blade_1920_1080_low.ogv" type="video/ogg">
 		<source src="http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/06/dragon_blade_1920_1080.webm" type="video/webm">
 		Your browser doesn't support HTML5 video tag.
 		<div class="overlay"></div>
-    </video>
+    </video> -->
 
 	<script>
-		document.getElementById("myvideo").onended = function() {myFunction()};
-		function myFunction() {
-			document.getElementById("myvideo").style.display = "none";
-		    document.getElementById("banner-id").style.display = "block";
-		    document.getElementById("topimage").style.display = "block";
-		}
-		console.log("test log");
+		// document.getElementById("myvideo").onended = function() {myFunction()};
+		// function myFunction() {
+		// 	document.getElementById("myvideo").style.display = "none";
+		//     document.getElementById("banner-id").style.display = "block";
+		//     document.getElementById("topimage").style.display = "block";
+		// }
+		// console.log("test log");
 	</script>
 
 	<script >

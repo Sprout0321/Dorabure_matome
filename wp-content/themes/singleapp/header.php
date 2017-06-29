@@ -49,7 +49,7 @@
 
      } ?>
 
-	<?php if ( get_theme_mod( 'singleapp_jumbotron_enable', '' ) == '1' && is_front_page() && singleapp_theme_style() == 'onepage' ) : ?>
+	<?php if ( get_theme_mod( 'singleapp_jumbotron_enable', '' ) == '1' && is_front_page() && singleapp_theme_style() == 'onepage1' ) : ?>
 		<div class="logoimageclass" id="logoimagediv">
 			<img id="logoimg" src="http://192.168.1.13:8080/wordpress/wp-content/uploads/2017/05/logo2.png" onclick="removevideo()">
 		</div>
@@ -61,7 +61,7 @@
 
 	<header id="masthead" class="site-header">
 
-		<div class="header-wrapper clearfix">
+		<div class="header-wrapper clearfix" id="topmenu-header-wrapper">
 
 			<div class="tg-container" id="topmenu-tg-container">
 

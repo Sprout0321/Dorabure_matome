@@ -2,8 +2,8 @@
     width: 100%;
     /* margin-bottom: -6px; */
     /* background: black; */
-    /* display: none; */
-    display: block;
+    display: none;
+    /* display: block; */
 }
 
 video::-webkit-media-controls-panel {
@@ -27,13 +27,13 @@ video::-webkit-media-controls {
 }
 
 #banner-id {
-	/* display: block; */
-	display: none;
+	display: block;
+	/* display: none; */
 }
 
 #topimage {
-	/* display: block; */
-	display: none;
+	display: block;
+	/* display: none; */
 }
 
 .home-slider {

@@ -1,7 +1,12 @@
-//div.block {
+div.block {
     display: none;
 }
 /* Menu下的導覽列 */
+
+h1.entry-title {
+	display: none;
+}
+/* 文章的大標題 */
 
 .sow-video-wrapper iframe {
     width:100%;
@@ -12,16 +17,6 @@
 	display: none;
 }
 /* 最底下的字 */
-
-//.sticky-wrapper div {
-	background-color:white;
-	z-index:100;
-}
-/* 使下拉式選單到最前排 */
-
-//.is-sticky div {
-	background-color: rgba(255, 0, 0, 0.3);
-}
 
 //.wp-image-552.size-full.aligncenter {
 	display: block;
