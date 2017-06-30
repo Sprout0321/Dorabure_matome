@@ -9,6 +9,7 @@
 <form class="wpmui-form">
 	<input type="hidden" name="do" value="save" />
 	<input type="hidden" name="sb" id="csb-id" value="" />
+	<?php wp_nonce_field( 'custom-sidebars-edit-sidebar' ); ?>
 
 	<div class="wpmui-grid-8 no-pad-top">
 		<div class="col-3">

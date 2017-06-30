@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Custom Sidebars Pro PLUGIN_VERSION\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/customsidebars\n"
-"POT-Creation-Date: 2017-06-08 05:46:56+00:00\n"
+"POT-Creation-Date: 2017-06-29 16:35:36+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,81 +65,86 @@ msgstr ""
 msgid "You do not have permission for this"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:202
+#: inc/class-custom-sidebars-editor.php:198
+#: inc/class-custom-sidebars-editor.php:324
+msgid "You have no permission to do this operation."
+msgstr ""
+
+#: inc/class-custom-sidebars-editor.php:214
 msgid "Sidebar-name cannot be empty"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:226
-#: inc/class-custom-sidebars-editor.php:309
+#: inc/class-custom-sidebars-editor.php:238
+#: inc/class-custom-sidebars-editor.php:333
 msgid "The sidebar does not exist"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:257
+#: inc/class-custom-sidebars-editor.php:269
 msgid "Created new sidebar <strong>%1$s</strong>"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:265
+#: inc/class-custom-sidebars-editor.php:277
 msgid "Updated sidebar <strong>%1$s</strong>"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:276
-#: inc/class-custom-sidebars-editor.php:329
+#: inc/class-custom-sidebars-editor.php:288
+#: inc/class-custom-sidebars-editor.php:353
 msgid "The sidebar was not found"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:318
+#: inc/class-custom-sidebars-editor.php:342
 msgid "Deleted sidebar <strong>%1$s</strong>"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:391
+#: inc/class-custom-sidebars-editor.php:415
 msgid "Front Page"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:392
+#: inc/class-custom-sidebars-editor.php:416
 msgid "Search Results"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:393
+#: inc/class-custom-sidebars-editor.php:417
 #: inc/class-custom-sidebars-visibility.php:158
 msgid "Not found (404)"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:394
+#: inc/class-custom-sidebars-editor.php:418
 msgid "Any Author Archive"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:395
+#: inc/class-custom-sidebars-editor.php:419
 msgid "Date Archives"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:413
-#: inc/class-custom-sidebars-editor.php:416
-#: inc/class-custom-sidebars-editor.php:422
-#: inc/class-custom-sidebars-editor.php:424
-#: inc/class-custom-sidebars-editor.php:508
-#: inc/class-custom-sidebars-editor.php:510
-#: inc/class-custom-sidebars-editor.php:529
+#: inc/class-custom-sidebars-editor.php:437
+#: inc/class-custom-sidebars-editor.php:440
+#: inc/class-custom-sidebars-editor.php:446
+#: inc/class-custom-sidebars-editor.php:448
+#: inc/class-custom-sidebars-editor.php:532
+#: inc/class-custom-sidebars-editor.php:534
+#: inc/class-custom-sidebars-editor.php:553
 msgid "%s Archives"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:471
+#: inc/class-custom-sidebars-editor.php:495
 #: inc/class-custom-sidebars-visibility.php:153
 msgid "Post Index"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:475
+#: inc/class-custom-sidebars-editor.php:499
 msgid "%1$s Archives"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:730
+#: inc/class-custom-sidebars-editor.php:754
 msgid "Updated sidebar <strong>%1$s</strong> settings."
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:766 views/widgets.php:17
+#: inc/class-custom-sidebars-editor.php:790 views/widgets.php:17
 msgid "Sidebars"
 msgstr ""
 
-#: inc/class-custom-sidebars-editor.php:1025 views/bulk-edit.php:23
+#: inc/class-custom-sidebars-editor.php:1049 views/bulk-edit.php:23
 #: views/import.php:123 views/widgets.php:47
 msgid "Custom Sidebars"
 msgstr ""
@@ -392,11 +397,11 @@ msgstr ""
 msgid "Also import all widgets of the selected sidebars."
 msgstr ""
 
-#: views/import.php:137 views/widgets-editor.php:15
+#: views/import.php:137 views/widgets-editor.php:16
 msgid "Name"
 msgstr ""
 
-#: views/import.php:138 views/widgets-editor.php:20
+#: views/import.php:138 views/widgets-editor.php:21
 msgid "Description"
 msgstr ""
 
@@ -474,7 +479,7 @@ msgid ""
 "class=\"name\"></strong>."
 msgstr ""
 
-#: views/widgets-delete.php:16 views/widgets-editor.php:63
+#: views/widgets-delete.php:16 views/widgets-editor.php:64
 #: views/widgets-location.php:189
 msgid "Cancel"
 msgstr ""
@@ -483,43 +488,43 @@ msgstr ""
 msgid "Yes, delete it"
 msgstr ""
 
-#: views/widgets-editor.php:16
+#: views/widgets-editor.php:17
 msgid "Sidebar name here..."
 msgstr ""
 
-#: views/widgets-editor.php:17
+#: views/widgets-editor.php:18
 msgid "The name must be unique."
 msgstr ""
 
-#: views/widgets-editor.php:21
+#: views/widgets-editor.php:22
 msgid "Sidebar description here..."
 msgstr ""
 
-#: views/widgets-editor.php:27
+#: views/widgets-editor.php:28
 msgid "Caution:"
 msgstr ""
 
-#: views/widgets-editor.php:39
+#: views/widgets-editor.php:40
 msgid "Before Title"
 msgstr ""
 
-#: views/widgets-editor.php:43
+#: views/widgets-editor.php:44
 msgid "After Title"
 msgstr ""
 
-#: views/widgets-editor.php:49
+#: views/widgets-editor.php:50
 msgid "Before Widget"
 msgstr ""
 
-#: views/widgets-editor.php:53
+#: views/widgets-editor.php:54
 msgid "After Widget"
 msgstr ""
 
-#: views/widgets-editor.php:60
+#: views/widgets-editor.php:61
 msgid "Advanced - Edit custom wrapper code"
 msgstr ""
 
-#: views/widgets-editor.php:64 views/widgets.php:43
+#: views/widgets-editor.php:65 views/widgets.php:43
 msgid "Create Sidebar"
 msgstr ""
 

@@ -3,7 +3,7 @@ Contributors: WPMUDEV, marquex, WPMUDEV-Support2, WPMUDEV-Support1, WPMUDEV-Supp
 Tags: sidebar, widget, footer, custom, flexible layout, dynamic widgets, manage sidebars, replace widgets, custom widget area
 Requires at least: 3.6
 Tested up to: 4.8
-Stable tag: 3.0.8
+Stable tag: 3.0.8.1
 
 Flexible sidebars for custom widget configurations on every page, post and custom post type on your site.
 
@@ -119,6 +119,9 @@ Custom Sidebars has the same license as WordPress, so you can use it wherever yo
 If you are running a earlier version of WordPress download Custom Sidebars 0.8.2.
 
 == Changelog ==
+
+= 3.0.8.1 =
+* Fixed CSRF vulnerability. Props for [qasuar](https://wordpress.org/support/users/qasuar/)
 
 = 3.0.8 =
 * Added bulk sidebars edit.

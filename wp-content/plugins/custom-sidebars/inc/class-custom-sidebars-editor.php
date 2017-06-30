@@ -141,7 +141,7 @@ class CustomSidebarsEditor extends CustomSidebars {
 				// Delete the specified sidebar.
 				case 'delete':
 					$req->sidebar = $sb_data;
-					$req = $this->delete_item( $req );
+					$req = $this->delete_item( $req, $_POST );
 					break;
 
 				// Get the location data.
@@ -186,6 +186,18 @@ class CustomSidebarsEditor extends CustomSidebars {
 	 * @return object Updated response object.
 	 */
 	private function save_item( $req, $data ) {
+		/**
+		 * check nonce
+		 */
+		if (
+			! isset( $data['_wpnonce'] )
+			|| ! wp_verify_nonce( $data['_wpnonce'], 'custom-sidebars-edit-sidebar' )
+		) {
+			return self::req_err(
+				$req,
+				__( 'You have no permission to do this operation.', 'custom-sidebars' )
+			);
+		}
 		$sidebars = self::get_custom_sidebars();
 		$sb_id = $req->id;
 		$sb_desc = stripslashes( trim( @$_POST['description'] ) );
@@ -299,7 +311,19 @@ class CustomSidebarsEditor extends CustomSidebars {
 	 * @param  object $req Initial response object.
 	 * @return object Updated response object.
 	 */
-	private function delete_item( $req ) {
+	private function delete_item( $req, $data ) {
+		/**
+		 * check nonce
+		 */
+		if (
+			! isset( $data['_wpnonce'] )
+			|| ! wp_verify_nonce( $data['_wpnonce'], 'custom-sidebars-delete-sidebar' )
+		) {
+			return self::req_err(
+				$req,
+				__( 'You have no permission to do this operation.', 'custom-sidebars' )
+			);
+		}
 		$sidebars = self::get_custom_sidebars();
 		$sidebar = self::get_sidebar( $req->id, 'cust' );
 

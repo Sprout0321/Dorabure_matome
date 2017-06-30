@@ -1,4 +1,4 @@
-/*! Custom Sidebars - v3.0.8
+/*! Custom Sidebars - v3.0.8.1
  * https://premium.wpmudev.org/project/custom-sidebars-pro/
  * Copyright (c) 2017; * Licensed GPLv2+ */
 /*global window:false */
@@ -936,7 +936,8 @@ window.csSidebars = null;
 				ajax.reset()
 					.data({
 						'do': 'delete',
-						'sb': id
+						'sb': id,
+						'_wpnonce': $('#_wp_nonce_cs_delete_sidebar').val()
 					})
 					.ondone( handle_done )
 					.load_json();
